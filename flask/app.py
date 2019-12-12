@@ -103,7 +103,7 @@ def lotto_result():
         winner.append(lotto[f'drwtNo{i}'])
     
     numbers = request.args.get('numbers') #string
-    numbers = numbers.split() #list
+    numbers = numbers.split() # list
     numbers_int = [] 
 
     for number in numbers:
